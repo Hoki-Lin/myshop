@@ -1,0 +1,106 @@
+2020-09-02 10:15:45.644 [main] INFO  com.hoki.MemberServer - No active profile set, falling back to default profiles: default
+2020-09-02 10:15:47.836 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2020-09-02 10:15:47.837 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2020-09-02 10:15:48.072 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-02 10:15:53.991 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-09-02 10:15:53.992 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-02 10:15:53.998 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-09-02 10:15:53.999 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-02 10:15:54.806 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2020-09-02 10:15:56.647 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2020-09-02 10:15:56.647 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2020-09-02 10:15:56.787 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2020-09-02 10:15:56.787 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2020-09-02 10:15:57.157 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-09-02 10:15:58.273 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020-09-02 10:15:58.273 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020-09-02 10:15:58.273 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020-09-02 10:15:58.273 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2020-09-02 10:15:58.273 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020-09-02 10:15:58.275 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2020-09-02 10:15:58.275 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020-09-02 10:15:58.818 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2020-09-02 10:15:58.824 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2020-09-02 10:15:58.829 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-02 10:15:58.849 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1599012958849 with initial instances count: 1
+2020-09-02 10:15:58.893 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1599012958893, current=UP, previous=STARTING]
+2020-09-02 10:15:58.896 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2020-09-02 10:15:58.956 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2020-09-02 10:15:59.071 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2020-09-02 10:15:59.101 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2020-09-02 10:15:59.133 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-09-02 10:15:59.181 [main] INFO  com.hoki.MemberServer - Started MemberServer in 22.714 seconds (JVM running for 26.527)
+2020-09-02 10:16:00.502 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2020-09-02 10:16:00.561 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2020-09-02 10:16:00.564 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2020-09-02 10:16:00.695 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-7365-1599012960570-0:1) is starting
+2020-09-02 10:16:00.699 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-7365-1599012960570-0:1) started
+2020-09-02 10:16:00.699 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2020-09-02 10:16:00.702 [RMI TCP Connection(14)-127.0.0.1] WARN  org.apache.activemq.broker.BrokerService - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: F:\ideaProject\hoki-shop-parent only has 36661 mb of usable space. - resetting to maximum available disk space: 36661 mb
+2020-09-02 10:16:00.741 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2020-09-02 10:16:00.792 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2020-09-02 10:16:00.793 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-7365-1599012960570-0:1) is shutting down
+2020-09-02 10:16:00.802 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-7365-1599012960570-0:1) uptime 0.266 seconds
+2020-09-02 10:16:00.802 [RMI TCP Connection(14)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-7365-1599012960570-0:1) is shutdown
+2020-09-02 10:16:07.708 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-02 10:16:07.785 [http-nio-8762-exec-1] INFO  com.hoki.api.service.impl.DemoApiServiceImpl - this is demo.
+2020-09-02 10:20:58.279 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-09-02 10:25:58.280 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-09-02 10:30:58.282 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-09-02 10:35:58.283 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-09-02 10:40:06.126 [main] INFO  com.hoki.MemberServer - No active profile set, falling back to default profiles: default
+2020-09-02 10:40:08.746 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2020-09-02 10:40:08.748 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2020-09-02 10:40:09.043 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-02 10:40:15.206 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-09-02 10:40:15.207 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-02 10:40:15.213 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-09-02 10:40:15.213 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-02 10:40:15.666 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2020-09-02 10:40:16.819 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2020-09-02 10:40:16.819 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2020-09-02 10:40:16.933 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2020-09-02 10:40:16.934 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2020-09-02 10:40:17.186 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-09-02 10:40:18.048 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020-09-02 10:40:18.048 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020-09-02 10:40:18.048 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020-09-02 10:40:18.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2020-09-02 10:40:18.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020-09-02 10:40:18.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2020-09-02 10:40:18.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020-09-02 10:40:18.245 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2020-09-02 10:40:18.248 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2020-09-02 10:40:18.251 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-02 10:40:18.256 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1599014418256 with initial instances count: 1
+2020-09-02 10:40:18.297 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1599014418297, current=UP, previous=STARTING]
+2020-09-02 10:40:18.300 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2020-09-02 10:40:18.347 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2020-09-02 10:40:18.386 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2020-09-02 10:40:18.398 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2020-09-02 10:40:18.410 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-09-02 10:40:18.441 [main] INFO  com.hoki.MemberServer - Started MemberServer in 21.295 seconds (JVM running for 25.116)
+2020-09-02 10:40:19.513 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2020-09-02 10:40:19.586 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2020-09-02 10:40:19.587 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2020-09-02 10:40:19.756 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-8021-1599014419625-0:1) is starting
+2020-09-02 10:40:19.762 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-8021-1599014419625-0:1) started
+2020-09-02 10:40:19.762 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2020-09-02 10:40:19.765 [RMI TCP Connection(2)-127.0.0.1] WARN  org.apache.activemq.broker.BrokerService - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: F:\ideaProject\hoki-shop-parent only has 36661 mb of usable space. - resetting to maximum available disk space: 36661 mb
+2020-09-02 10:40:19.805 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2020-09-02 10:40:19.854 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2020-09-02 10:40:19.855 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-8021-1599014419625-0:1) is shutting down
+2020-09-02 10:40:19.863 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-8021-1599014419625-0:1) uptime 0.305 seconds
+2020-09-02 10:40:19.863 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:Hoki-8021-1599014419625-0:1) is shutdown
+2020-09-02 10:40:55.716 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-02 10:40:55.834 [http-nio-8762-exec-1] INFO  com.hoki.common.log.LogAspectServiceApi - ===============请求内容===============
+2020-09-02 10:40:55.835 [http-nio-8762-exec-1] INFO  com.hoki.common.log.LogAspectServiceApi - 请求地址:http://localhost:8762/demo/demo
+2020-09-02 10:40:55.835 [http-nio-8762-exec-1] INFO  com.hoki.common.log.LogAspectServiceApi - 请求方式:GET
+2020-09-02 10:40:55.865 [http-nio-8762-exec-1] INFO  com.hoki.common.log.LogAspectServiceApi - 请求类方法:Map com.hoki.api.service.impl.DemoApiServiceImpl.demo()
+2020-09-02 10:40:55.865 [http-nio-8762-exec-1] INFO  com.hoki.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2020-09-02 10:40:55.865 [http-nio-8762-exec-1] INFO  com.hoki.common.log.LogAspectServiceApi - ===============请求内容===============
+2020-09-02 10:40:55.870 [http-nio-8762-exec-1] INFO  com.hoki.api.service.impl.DemoApiServiceImpl - this is demo.
+2020-09-02 10:40:55.871 [http-nio-8762-exec-1] INFO  com.hoki.common.log.LogAspectServiceApi - --------------返回内容----------------
+2020-09-02 10:40:55.879 [http-nio-8762-exec-1] INFO  com.hoki.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2020-09-02 10:40:55.879 [http-nio-8762-exec-1] INFO  com.hoki.common.log.LogAspectServiceApi - --------------返回内容----------------
+2020-09-02 10:45:18.056 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
