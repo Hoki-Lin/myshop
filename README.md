@@ -11,7 +11,7 @@ hoki-shop-parent
 |---->hoki-shop-member		会员服务模块
 |---->log			日志输出位置
 |---->pom.xml			parent依赖文件
-|----README.md			项目说明
+|---->README.md			项目说明
 ```
 
 ## 项目使用技术
